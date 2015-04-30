@@ -1,0 +1,39 @@
+header {
+	padding-top: 50px;
+}
+
+body {
+	background-color: beige;
+}	
+ 
+ p {
+ 	background-color: lightblue;
+ }
+
+ h3 {
+ 	text-align: center;
+ }
+
+h1 {
+	font-size: 5.0em;
+}
+
+li {
+	font-style: italic;
+}
+
+#header {
+	background: #4EA816;
+}
+
+.tag-line {
+	color: red;
+}
+
+.movement {
+	background-color: #7D6BC6;
+}
+
+ul {
+    list-style-type:square;
+}

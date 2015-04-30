@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>My Blog!</title>
-   <link rel="stylesheet" href="http://lighthouse.jquerycentral.com/css/blog-blue.css">
+   <!-- <link rel="stylesheet" href="http://lighthouse.jquerycentral.com/css/blog-blue.css"> -->
+   <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
-    <header>
+    <header id="header">
       <h1>My Blog</h1>
       <img src="http://www.just-do-something.org/wp-content/uploads/2014/03/TINY-PAW-PRINT.jpg">
     </header>
@@ -19,17 +20,26 @@
         <img src="http://placekitten.com/200/150">
       </header>
       <article>
-        <p><span>I am looking forward to building a blog page! YAY!</span></p>
+        <p><span class="tag-line">I am looking forward to building a blog page! YAY!</span></p>
       </article>
-  
     </section>
       
     <aside>
       <section>
-        <h4>Widget</h4>
+        <h4>My Favorite Colour</h4>
+          <p class="Fav-color">Purple</p>
       </section>
       <section>
         <h4>Widget</h4>
+        <p class="movement">Move and Groove</p>
+      </section>
+      <section>
+        <h4>Bucket List</h4>
+          <ul>
+              <li> Visit Egypt</li>
+              <li> Eat something that is still alive</li>
+              <li> Win a photography contest</li>
+          </ul>
       </section>
     </aside>
 
